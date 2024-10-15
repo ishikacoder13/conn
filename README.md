@@ -55,7 +55,7 @@ else:
 ```
 ### 3. Open the Terminal of that current file script only
    * Navigate to the current directory
-   * go to the directory where you have saved the file (mysql_connection.py)
+   * go to the directory where you have saved the file ((mysql_connection.py) here)
    * Run the following command
 ```
 python mysql_connection.py
