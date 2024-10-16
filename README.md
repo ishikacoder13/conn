@@ -39,7 +39,7 @@ def mysqlconnection():
     global password
     conn = mysql.connector.connect(host="localhost",user=userName,passwd=password,database="test",auth_plugin="mysql_native_password" )
     if conn:
-        print("Connected to MySQL database")
+        print("Connected to MySQL database ")
         return conn
     else:
         print("Connection failed")
@@ -48,14 +48,14 @@ conn=MYSQLconnectionCheck()
 if conn:
     mysqlconnection()
     if(True):
-        print("Connection is succesfull")
+        print("Connection is successfull")
         
 else:
-    print("mujhse nhi ho rha")
+    print("Unable to connect Python with MySQL")
 ```
 ### 3. Open the Terminal of that current file script only
    * Navigate to the current directory
-   * go to the directory where you have saved the file ((mysql_connection.py) here)
+   * Go to the directory where you have saved the file ((mysql_connection.py) here)
    * Run the following command
 ```
 python mysql_connection.py
